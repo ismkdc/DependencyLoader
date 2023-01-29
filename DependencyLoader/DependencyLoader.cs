@@ -1,6 +1,7 @@
 ﻿namespace DependencyLoader;
 
 record GroupedDependency(int Level, Dependency[] Dependencies);
+
 public class DependencyLoader
 {
     private readonly IList<Dependency> _dependencies;
